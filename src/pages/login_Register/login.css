@@ -1,0 +1,83 @@
+.login{
+     width: 100vw;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.loginWrapper{
+     width: 750px;
+     height: 400px;
+     display: flex; 
+     /* background-color: aquamarine; */
+      
+       
+}
+.loginLeft{
+     flex:1;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 25px;
+     justify-content: center;
+}
+.appTitle{
+     font-size: 35px;
+     color:blue;
+     font-weight: 800;
+}
+.appDesc{
+     margin-top: 14px;
+     font-size: 14px;
+     font-weight: 400;
+     text-align:center ;
+     color: #555;
+}
+.loginRight{
+     flex: 1;
+     display: flex;
+     flex-direction: column;
+     padding: 50px 25px;
+     align-items: center;
+     justify-content: space-between;
+     
+}
+.writeEmail,.loginButton{
+     width: 100%;
+     height: 40px;
+     font-size: 22px;
+     border: 2px solid grey;
+     border-radius: 9px;
+}
+.writeEmail:focus{
+     outline: none;
+}
+.writeEmail{
+     padding: 10px;
+}
+.loginButton{
+     background-color: blue;
+     font-size: 20px;
+     font-weight: 600;
+     padding: 5px;
+     color:white;
+     cursor: pointer;
+}
+
+.new{
+     width: 60%;
+     align-self: center;
+     background-color: rgba(6, 249, 75, 0.93);
+     font-size: smaller;
+}
+.butt{
+     height: 26px;
+     font-size: 16px;
+}
+.back{
+     color: rgb(43, 13, 151);
+     font-size: 15px;
+     font-weight: 500;
+     align-self: flex-end;
+     cursor:pointer;
+}

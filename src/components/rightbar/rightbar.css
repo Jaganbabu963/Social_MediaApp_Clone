@@ -1,0 +1,124 @@
+.rightbar{
+     flex: 3;
+     height: calc(100vh - 50px);
+     /* overflow-y: scroll; */
+     padding-right: 0;
+}
+
+/* ::-webkit-scrollbar{
+     width: 5px;
+}
+::-webkit-scrollbar-track{
+     width: 5px;
+     background-color: white;
+}
+::-webkit-scrollbar-thumb{
+     width: 5px;
+     background-color: rgb(200, 200, 200);
+} */
+
+.rightbarWrapper{
+     margin: 0;
+     padding: 7px;
+     padding-right: 0;
+}
+.birthDayContainer{
+     display: flex;
+     align-items: center;
+     margin-bottom: 10px;
+}
+.birthDayGift{
+     width: 42px;
+     height: 42px;
+     border-radius: 50%;
+     object-fit: cover;
+     margin-right: 6px;
+
+}
+.adImg{
+     width: 100%;
+     height: 200px;
+     border-radius:35px;
+     margin: 7px 0;
+     object-fit: contain;
+}
+.friendsList{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+.eachFriend{
+     display :flex;
+     align-items: center;
+     margin: 9px 0;
+     position: relative; 
+}
+.eachFriendImg{
+     width: 42px;
+     height: 42px;
+     border-radius: 50%;
+     object-fit: cover;
+     margin-right: 10px;
+   
+}
+
+.onlineStatus{
+     width: 13px;
+     height: 13px;
+     border-radius: 50%;
+     background-color: limegreen;
+     position: absolute;
+     top:0px;
+     left: 29px;
+     border: 2px solid white;
+}
+.underHr{
+     width: 100%;
+     height:1px;
+     background-color: rgb(157, 158, 158);
+     margin: 2px 0px;
+
+}
+.followers{
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.follower{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    margin: 0 20px 10px 0 ;
+}
+.followerImg{
+     height: 100px;
+     width: 100px;
+     border-radius: 5px;
+     object-fit: cover;
+}
+.rightBarTitle{
+     font-size: 26px;
+     font-weight: bold;
+     margin-bottom: 10px;
+}
+.infoItem{
+     margin-bottom: 10px;
+}
+.infoCity{
+     font-weight: 500;
+     font-size: 15px;
+     color: #555;
+}
+.infoCityvalue,.followerName{
+     color: black;
+     font-size: 17px;
+     margin-left: 3px;
+     font-weight: 300;
+
+}
+.followerName{
+     font-weight: 500;
+     font-size: 18px;
+     margin-top: 3px;
+}
